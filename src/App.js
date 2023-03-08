@@ -18,7 +18,7 @@ export function Productlist({ product, deleteButton, editButton }) {
   const styles = {
     color: product.rating > 3.9  ? "green" : "red",
   };
-  
+
   return (
     <div className="card-container">
       <Card className="product-Card">
@@ -95,6 +95,8 @@ function App() {
             <Route path='/product/edit/:id' element={<EditProduct />} />
             <Route path='/' element={<Home />} />
           </Routes>
+
+          
         </div>
       </Paper>
     </ThemeProvider>
