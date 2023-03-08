@@ -1,38 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Tilt+Warp&display=swap');
+
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
+}
+
+.product-Card {
+  width: 18rem;
+  height: 39rem;
+  margin: 15px;
+}
+
+.Card-img {
+  margin: 0 auto;
+  width: 18rem;
+  height: 23rem;
+}
+
+.card-name {
+  font-size: 22px;
+}
+
+.card-rating {
+  margin: 0;
+}
+
+.card-ram-text {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 5px;
+}
+
+.card-price {
+  font-size: 25px;
+  margin: 0;
+  font-family: 'Rampart One', cursive;
+}
+
+.card-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.appbar-home {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Home-text {
+  text-align: left;
+  padding: 50px;
+  font-size: 30px;
+  font-family: 'Rampart One', cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.edit-heading {
+  font-family: 'Rampart One', cursive;
+}
+
+.card-btn-edit {
+  background-color: transparent !important;
+  color: orange !important;
+}
+
+.card-btns {
+  margin: 0 auto;
+}
+
+.addproduct-container {
+  display: grid;
+  width: 500px;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+.add-heading {
+  font-family: 'Rampart One', cursive;
 }
